@@ -10,7 +10,7 @@ int read_input(sack_object **objects, int *object_count, int* p, int *sack_capac
 	FILE *fp;
 
 	if (argc != 4) {
-		fprintf(stderr, "Usage:\n\t./tema1 in_file generations_count threads_count\n");
+		fprintf(stderr, "Usage:\n\t./main in_file generations_count threads_count\n");
 		return 0;
 	}
 
